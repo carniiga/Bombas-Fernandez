@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+body{
+    background-image: url(./imgs/disco-dba865f1.png);
+}
+.form-container{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:  300px;
+    height: 500px;
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+}
+.login-title{
+    margin-top: 30px;
+    height: 80px;
+}
+.user-name p , .password p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: .9rem;
+    margin-bottom: 5px;
+}
+.user-name input , .password input{
+    border-style: none;
+    height: 30px;
+    width: 250px;
+    border-bottom: 1px solid rgb(200, 194, 194) 
+    !important ;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    
+}
+.user-name input:focus{
+   outline: none;
+}
+.forgot-password{
+    text-align: right;
+    width: 290px;
+    height: 50px;
+}
+a{
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.register{
+    text-align: cent;
+    margin: 20px 0;
+}
+
+.button-63 {
+    width: 250px;
+    height: 5px;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 20px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+.entra p{
+    margin-top: 20px ;
+}
+.redes-sociales img{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-inline: 5px;
+    height: 30px;
+    width: 30px;
+}
+

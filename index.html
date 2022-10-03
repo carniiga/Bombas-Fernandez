@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/af216a0741.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="import" href="./assets/register/register.html">
+    <link rel="import" href="./assets/login/login.html">
+    <title> AF </title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+                <img  class="logo_img" src="./assets/imgs/logo.png" alt="" srcset="">
+                <div class="menu-bars">
+                <i class="fa-solid fa-bars" id="bars"></i>
+                </div>
+            <div class="items-contenedor">
+                <ul class="nav-items">
+                    <li>sobre nosotros</li>
+                    <li>contactanos</li>
+                    <li  id="cart">carrito</li>
+                    <div class="login">
+                        <a href ="./assets/login/login.html" target="_blank"> Login </a>
+                    </div>
+                    <div class="redes-sociales">
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href= "https://www.instagram.com/frz.aguss/" target="_blank">
+                    <i class="fa-brands fa-instagram" ></i>
+                    </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="cart-menu">
+        <div class="button">
+            <button id="close-btn" class="btn-close">X</button>
+        </div>
+        <h2> Productos </h2>
+        <div class="card-cart-products">
+             
+        </div>
+        <div class="total-buy_btn">
+            <h3 class="total">TOTAL : 0</h3>
+            <button class="btn-buy">COMPRAR</button>
+         </div>
+    </div>
+    <section>
+        <div class="hero-desc">
+            <div class="desc">
+                <h1 class="desc-title">COMPRA LO QUE NECESITES!
+                </h1>
+                <P>Fernandez. es una empresa que presta asesoría hidráulica, venta, mantención y reparación de bombas de pozo profundo y otras ejecuciones, ofreciendo soluciones de calidad y garantía de servicio.</P>
+            </div>
+            <div class="img-hero">
+                <img class="trabajador-hero" src="./assets/imgs/trabajador.png" alt="">
+                
+            </div>
+            <div class="bomba-desc">
+                <p>
+                    El objetivo de una bomba presurizadora de agua es proporcionar mayor presión de agua a una red de suministro. En su vertiente doméstica, puede usarse en viviendas con cañerías que tienen un diámetro muy pequeño, o en edificios de varios pisos, para que el agua llegue con suficiente presión a los pisos más altos
+                </p> 
+                <img src="./assets/imgs/bomba.png" alt="" class="bomba-hero">
+            </div>
+        </div>
+    </section>
+    <div class="productos">
+        <div class="categorias">
+            <h2>Categorias</h2>
+            <ul class="categorias-bombas">
+                <li >Presurizadoras</li>
+                <li >Centrífugas</li>
+                <li >Sumergible</li>
+                <li >Periféricas</li>
+                <li >Autocebantes</li>
+            </ul>
+        </div>
+        <div class="lista-productos">
+            <!-- aca van los productos desde js -->
+        </div>
+    </div>
+    <div class="nombre">
+        <p> Copyright ©  Hecho por el Alumno Agustín Fernandez </p>
+    </div>
+</body>
+    <footer class="footer-container">
+         <nav class="footer-navigator">
+            <a href="#">
+                Trabajá con nosotros
+            </a>
+            <a href="#">
+                Términos y condiciones
+            </a>
+            <a href="#">
+                Cómo cuidamos tu privacidad
+            </a>
+            <a href="#">
+                Accesibilidad
+            </a>
+            <a href="#">
+                Información al usuario financiero
+            </a>
+            <a href="#">
+                Ayuda
+            </a>
+            <a href="#">
+                Defensa del Consumidor
+            </a>
+            <a href="#">
+                Información sobre seguros
+            </a>
+         </nav>
+    </footer>
+<script src="./data.js"></script>
+<script src="./index.js"></script>
+</html>
